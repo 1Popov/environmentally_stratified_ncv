@@ -1,0 +1,72 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The data file `DataFiles/featureTable.mat` and the precomputed depth-weight
+lookup `DepthWeights.mat` distributed with this repository are licensed under
+the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material for any purpose,
+          even commercially
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your use.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+================================================================================
+DATA PROVENANCE
+================================================================================
+
+`DataFiles/featureTable.mat` is a derived product built from:
+
+1. **Copernicus Marine Environment Monitoring Service (CMEMS) Black Sea
+   reanalysis and analysis/forecast** — physical fields used as environmental
+   predictors (temperature, salinity, density, currents, sea-surface height,
+   mixed-layer depth). Two products:
+     - Black Sea Physics Reanalysis — DOI: https://doi.org/10.48670/mds-00356
+     - Black Sea Physics Analysis and Forecast — DOI: https://doi.org/10.48670/mds-00355
+   Subject to the CMEMS license, which permits redistribution of derived
+   products with attribution. See: https://marine.copernicus.eu/
+
+2. **Argo BGC float profiles** — dissolved oxygen and supporting
+   measurements as the regression target. The Argo snapshot
+   (DOI 10.17882/42182) is published under the Creative Commons
+   Attribution 4.0 (CC-BY 4.0) license. These data were collected and
+   made freely available by the international Argo project and the
+   national programs that contribute to it. The Argo Program is part
+   of the Global Ocean Observing System.
+   See: https://argo.ucsd.edu/ — DOI: https://doi.org/10.17882/42182
+
+`DepthWeights.mat` is a 2 KB precomputed lookup of per-depth oxygen
+standard deviations used to assign sample weights in the depth-weighted
+Random CV variants. It was computed from the development set of
+`featureTable.mat`.
+
+================================================================================
+HOW TO CITE THE DATA
+================================================================================
+
+If you use the vendored `featureTable.mat` in derivative work, please cite:
+
+  Popov, I. et al. (2026). Environmentally stratified spatiotemporal nested
+  cross-validation for marine systems. [Journal — full citation in
+  CITATION.cff at repo root once paper DOI is assigned.]
+
+AND the upstream sources:
+
+  Generated using E.U. Copernicus Marine Service Information;
+  https://doi.org/10.48670/mds-00356 (Black Sea Physics Reanalysis),
+  https://doi.org/10.48670/mds-00355 (Black Sea Physics Analysis and Forecast).
+
+  These data were collected and made freely available by the international
+  Argo project and the national programs that contribute to it.
+  Argo (2024). Argo float data and metadata from Global Data Assembly Centre
+  (Argo GDAC). SEANOE. https://doi.org/10.17882/42182

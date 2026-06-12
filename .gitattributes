@@ -1,0 +1,5 @@
+# Normalize text line endings to LF in the repository (checkout stays native).
+* text=auto
+
+# MATLAB data and model files are binary — never diff or line-ending-convert.
+*.mat binary

@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software itself (this CITATION.cff) and the accompanying paper (see preferred-citation below)."
+type: software
+title: "environmentally_stratified_ncv: code accompanying Popov et al. (2026)"
+version: "1.0-submission"
+date-released: "2026-06-10"
+repository-code: "https://github.com/1Popov/environmentally_stratified_ncv"
+license: MIT
+abstract: >-
+  MATLAB and Python codebase reproducing six fold-construction strategies
+  (Random CV unweighted, Random CV depth-weighted, GeoCluster-CV, OF-CV,
+  EOF-CV, Hybrid-CV) for environmentally stratified spatiotemporal nested
+  cross-validation in marine systems, applied to Black Sea
+  dissolved oxygen prediction with LightGBM trained on Copernicus Marine
+  Service reanalysis collocated with Biogeochemical-Argo float observations.
+keywords:
+  - spatiotemporal autocorrelation
+  - environmental stratification
+  - oceanographic modeling
+  - dissolved oxygen prediction
+  - machine learning validation
+  - nested cross-validation
+  - LightGBM
+  - Black Sea
+
+authors:
+  - family-names: Popov
+    given-names: Ivan
+    orcid: "https://orcid.org/0000-0002-2012-3628"
+    affiliation: "Institute of Oceanology, Bulgarian Academy of Sciences"
+    email: i.popov@io-bas.bg
+  - family-names: Zlateva
+    given-names: Ivelina
+    orcid: "https://orcid.org/0000-0003-4133-5627"
+    affiliation: "Institute of Oceanology, Bulgarian Academy of Sciences"
+    email: i.zlateva@io-bas.bg
+  - family-names: Stanev
+    given-names: Emil
+    orcid: "https://orcid.org/0000-0002-1110-8645"
+    affiliation: "Helmholtz-Zentrum Hereon"
+    email: emil.stanev@hereon.de
+  - family-names: Staneva
+    given-names: Joanna
+    orcid: "https://orcid.org/0000-0003-4553-392X"
+    affiliation: "Helmholtz-Zentrum Hereon"
+    email: joanna.staneva@hereon.de
+
+preferred-citation:
+  type: article
+  title: "Environmentally stratified spatiotemporal nested cross-validation for marine systems"
+  # journal: added once a journal accepts the manuscript — omitted while under review
+  year: 2026
+  # doi: filled in after acceptance — placeholder retained intentionally
+  authors:
+    - family-names: Popov
+      given-names: Ivan
+      orcid: "https://orcid.org/0000-0002-2012-3628"
+      affiliation: "Institute of Oceanology, Bulgarian Academy of Sciences"
+    - family-names: Zlateva
+      given-names: Ivelina
+      orcid: "https://orcid.org/0000-0003-4133-5627"
+      affiliation: "Institute of Oceanology, Bulgarian Academy of Sciences"
+    - family-names: Stanev
+      given-names: Emil
+      orcid: "https://orcid.org/0000-0002-1110-8645"
+      affiliation: "Helmholtz-Zentrum Hereon"
+    - family-names: Staneva
+      given-names: Joanna
+      orcid: "https://orcid.org/0000-0003-4553-392X"
+      affiliation: "Helmholtz-Zentrum Hereon"

@@ -1,0 +1,14 @@
+# Python dependencies for the LightGBM / Optuna wrapper (lgbm_wrapper.py)
+#
+# Tested with Python 3.9.23 on Windows 11 (miniconda env `lgbm_env`).
+# Versions pinned to those used for the paper's experiments; relaxing constraints
+# may introduce numerical drift beyond the reporting-precision tolerance.
+#
+# For a binary-identical reproduction of the paper's environment, prefer
+# `conda env create -f environment.yml` (full conda snapshot with
+# transitive deps). This file is for pip-only setups.
+
+lightgbm==4.6.0
+optuna==4.4.0
+numpy==1.26.4
+pandas==2.3.1
